@@ -1,2 +1,5 @@
 # treasureverse
-C2C marketplace with fixed-price sales and auction features.
+
+A social showcase platform where users share their personal treasures, photos, profiles, and comments.
+
+Treasureverse is not a marketplace. Sales, auctions, bidding, orders, payments, shipping, and escrow are intentionally out of scope.
