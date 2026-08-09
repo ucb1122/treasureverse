@@ -87,3 +87,10 @@ Pull requests should include:
 - Summary
 - Tests run
 - Linked issue
+
+Codex workflow rules:
+
+- Do not create Gradle cache directories inside the project, such as `.gradle-codex`.
+- Keep implementation changes small and scoped before running heavier verification.
+- If the default user Gradle cache is unavailable, do not force tests by writing caches into the repository. Run tests only after an approved cache location is available, or clearly report that tests were not run.
+- Check `git status --short` during work, especially after dependency downloads or test attempts, to catch accidental generated files early.
